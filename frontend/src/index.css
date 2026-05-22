@@ -1,3 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -450,4 +465,104 @@ code {
 .social-icons a:hover {
   color: #387ed1;
   transform: translateY(-6px);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar-nav {
+    text-align: center;
+    gap: 10px;
+  }
+
+  @media (max-width: 768px) {
+
+  .navbar-nav {
+    text-align: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+}
+
+  /* Hero / General Sections */
+  .container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* Profile image */
+  .profile-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* Team image */
+  .team-img {
+    width: 100%;
+  }
+
+  /* Connect row */
+  .connect-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* Signup button */
+  .signup-btn {
+    font-size: 18px;
+    padding: 12px 20px;
+    white-space: nowrap;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .app-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Pricing tabs */
+  .pricing-tabs {
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  /* Support header */
+  .support-header {
+    padding: 20px;
+  }
+
+  .support-header h1 {
+    font-size: 24px;
+  }
+
+  .ticket-btn {
+    position: static;
+    margin-top: 15px;
+  }
+
+  /* Support cards */
+  .support-card-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Search bar */
+  .search-bar {
+    font-size: 14px;
+  }
+
 }

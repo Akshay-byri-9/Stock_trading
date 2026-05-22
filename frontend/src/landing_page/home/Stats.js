@@ -4,7 +4,7 @@ function Stats() {
     return ( 
        <div className='container p-3'>
         <div className='row p-5'>
-            <div className='col-6 p-5'>
+            <div className='col-lg-6 col-md-12 col-12 p-5'>
                 <h1 className='fs-2 mb-5'>Trust with Confidence</h1>
                 <h2 className='fs-4'>Customer-first always</h2>
                 <p className='text-muted'>That's why 1.3+ crore customers trust Zerodha with  ₹3.5+ lakh crores worth of equity investments</p>
@@ -15,11 +15,11 @@ function Stats() {
                 <h2 className='fs-4'>Do better with money</h2>
                 <p className='text-muted'>With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help  you do better with your money</p>
             </div>
-             <div className='col-6 p-5'>
+             <div className='col-lg-6 col-md-12 col-12 p-5'>
                 <img src='images/ecosystem.png' style={{width:"100%"}}/>
                 <div className='text-center'>
-                    <a href=''className='mx-5' style={{textDecoration:"none"}}>Explore our Products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    <a href='' style={{textDecoration:"none"}}>Try Kite demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href=''className='mx-5' style={{textDecoration:"none"}}>Explore our Products <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href='' style={{textDecoration:"none"}}>Try Kite demo <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div>
              </div>
 

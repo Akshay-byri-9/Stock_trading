@@ -2,16 +2,16 @@ import React from 'react';
 
 function Awards() {
     return ( 
-      <div className='conatiner mt-5'>
+      <div className='container mt-5'>
         <div className='row'>
-            <div className='col-6 p-5'>
+            <div className='col-lg-6 col-md-6 col-12 p-4'>
              <img src='images/largestBroker.svg'/>
             </div>
-            <div className='col-6 p-5 mt-5'>
+            <div className='col-lg-6 col-md-6 col-12 p-4'>
              <h1>Largest Stock Broker in India</h1>
              <p className='mb-5'>2+ million Zerodha clients contribute to over 15% of all retail order volumes in india by trading and investing in :</p>
              <div className='row'>
-                <div className='col-6'> <ul>
+               <div className='col-lg-6 col-md-6 col-12 p-4'> <ul>
                 <li>
                     <p>Futures and Options</p>
                 </li>
@@ -22,7 +22,7 @@ function Awards() {
                     <p>Currency derivatives</p>
                 </li>
              </ul></div>
-                  <div className='col-6'> <ul>
+                  <div className='col-lg-6 col-md-6 col-12 p-4'> <ul>
                 <li>
                     <p>Stocks and IPOs</p>
                 </li>

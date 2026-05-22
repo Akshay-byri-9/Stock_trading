@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg border-bottom py-3 sticky-top"
-      style={{ backgroundColor: "#FFF", zIndex:"1000"}}
+      style={{ backgroundColor: "#FFF", zIndex: "1000" }}
     >
-      <div className="container-fluid px-5">
+      <div className="container-fluid px-3 px-lg-5">
         <Link className="navbar-brand" to="/">
           <img
             src="images/logo.svg"
@@ -26,7 +26,10 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse justify-content-end">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
           <ul className="navbar-nav fs-5 gap-4">
             <li className="nav-item"><NavLink className="nav-link" to="/signup">Signup</NavLink></li>
             <li className="nav-item"><NavLink className="nav-link" to="/about">About</NavLink></li>
